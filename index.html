@@ -23,7 +23,26 @@
 
     <div class="wrapper" id="wrapper">
 
-        <div class="background" id="background" style="margin-left: -6.58px; margin-top: 2.62px;"></div>
+       <!-- <div class="background" id="background" style="margin-left: -6.58px; margin-top: 2.62px;"></div> --->
+
+    <html>
+    <head>
+    <script type="text/javascript"> 
+    var totalCount = 18;
+    function ChangeIt() 
+    {
+    var num = Math.ceil( Math.random() * totalCount );
+    document.body.background = 'images/'+num+'.png';
+    document.body.style.backgroundRepeat = "repeat";// Background repeat
+    }
+    </script>
+    </head>
+    <body> 
+    </body> 
+    <script type="text/javascript"> 
+    ChangeIt();
+    </script> 
+    </html>
 
         <div class="logo">
             <img src="logo.png">
