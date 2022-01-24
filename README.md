@@ -1,2 +1,2 @@
-# worldwide-survival.github.io
+# https://dtrasca.github.io/worldwide-survival.github.io/
 worldwide-survival index
